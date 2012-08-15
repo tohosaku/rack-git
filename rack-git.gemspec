@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "rack-git"
   gem.require_paths = ["lib"]
   gem.version       = Rack::Git::VERSION
+  gem.add_dependency('grit')
 end
